@@ -1,6 +1,6 @@
 <template>
-   <Link href="/">Main Page</Link>
-   <Link href="/show">Show Page</Link>
+   <Link href="/listing">Main Page</Link>
+   <Link href="/listing/create">Show Page</Link>
 
     
 
