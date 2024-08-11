@@ -1,15 +1,12 @@
 <template>
-    <div>Hello!</div>
-    <div>Counter: {{ counter }}</div>
+    <div class="text-red-500">Hello!</div>
+    <Link href="/show">Show Page</Link>
   </template>
   
+
+
+
   <script setup>
-  import { ref } from 'vue'
-  
-  const counter = ref(1)
-  
-  setInterval(() => {
-    counter.value++
-  }, 1000)
+    import { Link } from '@inertiajs/vue3';
   </script>
   
